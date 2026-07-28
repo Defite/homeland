@@ -12,22 +12,21 @@ import { Kubernetes } from "@/components/ui/svgs/kubernetes";
 import { Astro } from "@/components/ui/svgs/astro";
 
 export const DATA = {
-  name: "Alex Mercer - Software Engineer",
-  initials: "AM",
-  url: "https://alexmercer.dev",
-  location: "Austin, TX",
-  locationLink: "https://www.google.com/maps/place/austin+tx",
+  name: "Nikita Makhov - Frontend Developer",
+  initials: "NM",
+  url: "https://defite.ru",
+  location: "Earth",
+  locationLink: "https://www.google.com/maps/place/earth",
   description:
-    "Full-stack engineer turned indie founder. I love building developer tools, fast UIs, and products people actually use.",
+    "Frontend developer with attention to the details and better user experience.",
   summary:
-    "In early 2023, I left a senior engineering role to go all-in on building my own SaaS products. Before that, [I completed a double degree in computer science and business](/#education), [interned at companies like Stripe and Cloudflare](/#work), and [competed in 18+ hackathons](/#hackathons). I also spent a summer in San Francisco as part of a founder residency focused on shipping fast and finding early customers.",
-  avatarUrl: "/picofme.png",
+    "My frontend path started from simple HTML pages, Flash sites and continued as development of complex web apps.",
+  avatarUrl: "/lebowski@2x.png",
   ogImage: "/og_image.png",
   sections: {
     about: { order: 1, enabled: true, heading: "About" },
     work: { order: 2, enabled: true, heading: "Work Experience", presentLabel: "Present" },
     education: { order: 3, enabled: true, heading: "Education" },
-    skills: { order: 4, enabled: true, heading: "Skills" },
     projects: {
       order: 5, enabled: true,
       label: "My Projects",
@@ -191,36 +190,12 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Founder Fellowship SF",
-      href: "https://foundersfellowship.io",
-      degree: "Cohort 4 - Founder in Residence",
-      logoUrl: "https://avatar.vercel.sh/founder-fellowship?size=40",
-      start: "2023",
-      end: "2023",
-    },
-    {
-      school: "University of British Columbia",
-      href: "https://ubc.ca",
-      degree: "Bachelor of Science, Computer Science",
-      logoUrl: "https://www.google.com/s2/favicons?domain=ubc.ca&sz=128",
-      start: "2018",
-      end: "2023",
-    },
-    {
-      school: "Simon Fraser University",
-      href: "https://sfu.ca",
-      degree: "Bachelor of Business Administration",
-      logoUrl: "https://www.google.com/s2/favicons?domain=sfu.ca&sz=128",
-      start: "2018",
-      end: "2023",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "https://www.google.com/s2/favicons?domain=ibo.org&sz=128",
-      start: "2014",
-      end: "2018",
+      school: "Lomonosov Moscow State University",
+      href: "https://msu.ru/",
+      degree: "Geology",
+      logoUrl: "/msu.png",
+      start: "2006",
+      end: "2010",
     },
   ],
   projects: [
